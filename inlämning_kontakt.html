@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Inlämning_1.css" />
+    <title>Kontakt - Smaka Good Food Festival</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="rubrik">Kontakt - Smaka Good Food Festival</h1>
+
+      <nav class="nav_bar">
+        <a href="Inlämning_hem.html">Hem</a>
+        <a href="inlämning_kontakt.html">Kontakt</a>
+        <a href="inlämning_väder.html">Väder</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <form action="/action_page.php">
+        <h2>Lämna dina synpunkter här!</h2>
+
+        <label for="rubrik">Rubrik</label>
+        <input type="text" id="rubrik" name="rubrik" placeholder="Rubrik" />
+
+        <label for="fNamn">Förnamn</label>
+        <input
+          type="text"
+          id="fNamn"
+          name="förnamn"
+          placeholder="Ditt förnamn.."
+        />
+
+        <label for="eNamn">Efternamn</label>
+        <input
+          type="text"
+          id="eNamn"
+          name="efternamn"
+          placeholder="Ditt efternamn.."
+        />
+
+        <label for="ärende">Ärende</label>
+        <select id="ärende" name="ärende">
+          <option value="option">---</option>
+          <option value="mat">Mat</option>
+          <option value="priser">Priser</option>
+          <option value="bokning">Bokning av biljett</option>
+          <option value="övrigt">Övrigt</option>
+        </select>
+
+        <label for="beskrivning">Beskrivning</label>
+        <textarea
+          id="beskrivning"
+          name="beskrivning"
+          placeholder="Skriv dina synpunkter här.."
+          style="height: 150px"
+        ></textarea>
+
+        <p class="answer">Vill du få svar på din synpunkt?</p>
+        <label for="R1">Ja</label>
+        <input type="Radio" name="Gender" id="R1" value="Male" />
+
+        <label for="R2">Nej</label>
+        <input type="Radio" name="Gender" id="R2" value="Female" />
+
+        <input type="submit" value="Skicka" />
+      </form>
+    </div>
+
+    <footer>
+      <p>
+        Vill du veta mer? Skicka e-post till
+        <a href="mailto:foodfest@gmail.com">foodfest@gmail.com</a>
+      </p>
+    </footer>
+  </body>
+</html>
