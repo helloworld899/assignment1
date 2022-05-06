@@ -1,6 +1,6 @@
 ﻿# Assigntment 1
  
- Main goal with assignment 1 was to create a website with a standard layout using simpler HTML and CSS.
+ Main goal with assignment 1 was to create a website with a standard layout using simpler HTML and CSS.  
  
 A website with the following content:  
 1. A header  
