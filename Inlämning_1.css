@@ -4,10 +4,18 @@ body {
   padding: 10px;
 }
 
+header {
+  background-color: rgb(130, 74, 130, 0.7);
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
 .nav_bar {
   background-color: rgb(169, 151, 223);
   cursor: crosshair;
   font-size: x-large;
+  padding: 10px;
+  margin-bottom: 15px;
 }
 
 nav a:hover,
@@ -15,7 +23,7 @@ nav a:active {
   color: rgb(255, 255, 255);
 }
 
-article {
+section {
   padding: 50px;
   margin-top: 40px;
   margin-bottom: 60px;
@@ -27,13 +35,7 @@ article {
   border-color: black;
 }
 
-.container1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.container2 {
+section .container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,25 +58,13 @@ aside {
   padding-right: 20px;
   margin-left: 10px;
   margin-right: 30px;
-  margin-top: -36%;
+  margin-top: -42%;
   float: right;
   position: static;
   background-color: rgb(255, 255, 255);
   border-width: thin;
   border-style: solid;
   border-color: black;
-}
-
-.rubrik {
-  background-color: rgb(130, 74, 130);
-  padding: 10px;
-  margin-bottom: 15px;
-}
-
-.rubrik1 {
-  background-color: rgb(130, 74, 130);
-  margin-top: -30px;
-  padding: 10px;
 }
 
 footer p {
@@ -85,9 +75,7 @@ footer p {
 
 /* Style for the contact-form down below*/
 /* Style inputs with type="text", select elements and textareas */
-input[type="text"],
-select,
-textarea {
+input {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc; 
@@ -99,12 +87,12 @@ textarea {
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-input[type="submit"]:hover {
+.sub_btn:hover {
   background-color: rgb(169, 151, 223);
 }
 
 /* Add a background color and some padding around the form */
-.container {
+.kontakt_form{
   border-radius: 10px;
   background-color: #f2f2f2;
   padding: 20px;
@@ -121,13 +109,29 @@ input[type="submit"]:hover {
   margin-top: 30px;
 }
 
-/* Style the submit button with a specific background color etc */
-input[type="submit"] {
+.sub_btn {
   background-color: rgb(130, 74, 130);
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  margin-left: 60%;
+  margin-top: 40px;
+}
+
+#beskrivning{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical; 
+}
+
+#R1, #R2 {
+  float:left;
+  width: 5%;
+  margin: 0 2%;
 }
